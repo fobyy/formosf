@@ -1,0 +1,32 @@
+tes
+test
+test
+sExercice 1
+
+On considère le système suivant :
+
+4x1 - 2x2 + x3 = 18
+
+2x1 + x2 - 2x3 = -3
+
+- x1 - x2 + x3 = 2
+
+1) Ecrire le système sous forme matricielle
+
+2) Résoudre matriciellement le système (c'est à dire en inversant sa matrice, puis en faisant le produit de l'inverse par le vecteur [18 -3 2]t)
+
+Exercice 2
+
+On se place dans R2[X], l'espace vectoriel sur le corps des réels des polynomes à une indéterminée X de degré au plus égal à 2.
+
+1) On considère l'application f de R2[X] dans R2[X] qui à un polynôme P fait correspondre f(P) = P' (la dérivée de P).
+
+a) Quelle est la matrice représentative de l'application f dans la base canonique (1, X, X2)?
+
+b) On considère maintenant l'application f1 de R2[X] dans R1[X] telle que f1(P) = P'. Quelle est la matrice représentative de f1relativement aux bases canoniques de R2[X] et R1[X]?
+
+2) On considère l'application g de R2[X] dans R2[X] qui à un polynôme P fait correspondre
+
+g(P) = 4.P - P'/2 - P'(0).(X2 - X + 1/2) - P(0).X
+
+Quelle est la matrice représentative de l'application g dans la base canonique (1, X, X2)? 
