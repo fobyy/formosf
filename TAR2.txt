@@ -1,0 +1,67 @@
+Exercice 1
+
+Etudier la diagonalisabilité de la matrice Ma:
+
+-3a 2a -a
+
+-6a - 5 4a + 3 -2a - 1
+
+-3a - 10 2a + 6 -a - 2
+
+où a est un paramètre réel.
+
+Exercice 2 (le début est la 2ème question de l'exercice 2 de la semaine dernière)
+
+On considère l'application g de R2[X] dans R2[X] qui à un polynôme P fait correspondre
+
+g(P) = 4.P - P'/2 - P'(0).(X2 - X + 1/2) - P(0).X
+
+a) Quelle est la matrice représentative de l'application g dans la base canonique (1, X, X2)?
+
+b) Soient:
+
+P(X) = 1 - X2
+
+Q(X) = 1 + X + X2
+
+R(X) = 1 - 2 X + X2
+
+Quelle sont les matrices qui permettent de passer de la base canonique à la base (P,Q,R) et réciproquement?
+
+c) Quelle est la matrice de g relativement à la base (P,Q,R)?
+
+d) Dans la base (P,Q,R), quelle est la matrice de gn (qui est g o g o g.....o g composé n fois)? En déduire en utilisant la question b) la matrice représentative de gn dans la base canonique.
+
+Exercice 3
+
+On se place dans un espace vectoriel E de dimension 3.
+
+Si F et G sont deux sous-espaces vectoriels de E tels que la réunion d'une base de F avec une base de G forme une base de E, on appelle projecteur sur F parallèlement à G l'application linéaire dont la restriction à F est l'identité et la restriction à G est l'application nulle.
+
+Soit P le plan d'équation x + y + z = 0
+
+Soit D la droite engendrée par (1 1 1)
+
+Soit p le projecteur sur P parallèlement à D
+
+Soit q le projecteur sur D parallèlement à P
+
+1) a) Trouver une base de P
+
+b) Montrer que P et D sont des sous-espaces propres de p et q pour les valeurs propres 1 et 0. Quel est le degré du polynôme caractéristique de p et q? Que peut-on dire de l'ordre de multiplicité de ces valeurs propres? En déduire que p et q sont diagonalisables. Donner une base de vecteurs propres, et les matrices représentatives de p et q dans cette base (pratiquement aucun calcul à effectuer pour toute cette question...)
+
+2) Trouver la matrice M (respectivement N) représentative de p (respectivement q) dans la base canonique. Que vaut M2 (respectivement N2)? Remarque: Le résultat obtenu est une caractéristique des projecteurs.
+
+Exercice 4
+
+On se place dans un R-espace vectoriel Euclidien E de dimension 2.
+
+On considère un projecteur P sur une droite D1 et paralellement à une droite D2 (différente de D1).
+
+Soit x (respectivement y) non nul appartenant à D1 (respectivement à D2).
+
+1) Montrer que tous les éléments z de E qui se projettent en x s'écrivent z = x+k.y, où k est un réel (faire un dessin).
+
+2) Dans le cas d'une projection non orthogonale, parmi les vecteurs qui se projettent en x, quel est vecteur (que l'on nomme z0) ayant la plus petite norme? Que vaut le k correspondant? Montrer que ||z0|| < ||P(z0)||.
+
+3) Montrer que si la projection est orthogonale, on a forcément ||z|| supérieure ou égale à ||P(z)||. En déduire une carctérisation des projections orthogonales. 
